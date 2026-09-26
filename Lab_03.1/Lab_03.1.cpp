@@ -26,10 +26,10 @@ int main()
 	if (x < 1)
 		B = 0, 65 * x + 8;
 	else
-		if (1 <= x && x < 5)
-			B = atan((x + 6, 1) / 2) + exp(x);
+		if (x >= 5)
+			B = sqrt(1 + sqrt(x));
 		else
-			B = sqrt(1+sqrt(x));
+			B = atan((x + 6, 1) / 2) + exp(x);
 	y = A + B;
 	cout << "2) y = " << y << endl;
 	cin.get();
